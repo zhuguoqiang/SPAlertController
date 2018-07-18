@@ -15,8 +15,8 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "SPAlertController"
-  s.version      =  "2.0"
+  s.name         = "SPAPAlertController"
+  s.version      =  "2.0.1"
   s.summary      = "提醒对话框."
 
   # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 			这是一个提醒对话框
                    DESC
 
-  s.homepage     = "https://github.com/SPStore/SPAlertController"
+  s.homepage     = "https://github.com/zhuguoqiang/SPAlertController"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/SPStore/SPAlertController.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/zhuguoqiang/SPAlertController.git", :tag => s.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
