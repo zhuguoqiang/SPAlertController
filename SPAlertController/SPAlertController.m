@@ -1740,6 +1740,10 @@ static NSString * const FOOTERCELL = @"footerCell";
         return;
     }
     [self updateConstraints];
+    
+    // fix overlayView 镂空frame, 键盘出现和收起时的布局瑕疵。
+    SPAlertController *alertController = (SPAlertController *)self.presentedViewController;
+    [self.overlayView redrawWithView:self.presentedView alertController:alertController];
 }
 
 - (void)containerViewDidLayoutSubviews {

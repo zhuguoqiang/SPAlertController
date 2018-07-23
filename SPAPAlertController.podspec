@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SPAPAlertController"
-  s.version      =  "2.0.2"
+  s.version      =  "2.0.3"
   s.summary      = "提醒对话框."
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/zhuguoqiang/SPAlertController.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/zhuguoqiang/SPAlertController.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
